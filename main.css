@@ -1,0 +1,39 @@
+body {
+    background-color: lightgrey;
+}
+
+.cover-container {
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.row-fluid {
+    background-color: lightgrey;
+}
+
+.col-md {
+    background-color: lightgrey;
+}
+
+.container-fluid {
+    background-color: lightgrey;
+}
+
+.col-6 {
+    background-color: lightgrey;
+}
+
+.col {
+    background-color: lightgrey;
+}
+
+h3 {
+    font-size: large;
+    font-weight: 700;
+}
+
+img {
+    border-radius: 8px;
+}
