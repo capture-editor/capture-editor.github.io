@@ -53,12 +53,11 @@ body {
     background-color: lightgrey;
 }
 
-
 .col-6 {
     background-color: lightgrey;
     height: 100vh;
 }
-  
+
 .col-3 {
     background-color: rgb(169, 169, 173);
     height: 100vh;
@@ -85,8 +84,9 @@ img {
     display: inline-block;
 }
 
-dropdown {
+.dropdown {
     display: inline-block;
+    color: black;
 }
 
 .imgvid {
@@ -111,33 +111,44 @@ dropdown {
     border-width: 5px;
 }
 
-.audiovertical { 
-    border-left: 6px solid#4985c2; 
+.audiovertical {
+    border-left: 6px solid#24262e;
     height: 100%;
     margin-left: -15px;
     position: absolute;
-    
-    
-} 
+}
 
-.editsvertical{
-    border-right: 6px solid #4985c2 ; 
+.editsvertical {
+    border-right: 6px solid #24262e;
     height: 100%;
     margin-right: 10px;
     position: absolute;
-    
 }
 
-hr{
+hr {
     border-radius: 10px;
     margin-left: 0px;
 }
 
-.horizontal{
+.horizontal {
     margin-top: 6px;
     margin-left: 0px;
-    border-bottom: 4px solid#4985c2;
+    border-bottom: 4px solid#24262e;
     border-radius: 2px;
-
     /*#292b2c*/
+}
+
+.btn {
+    display: inline-block;
+    white-space: normal;
+}
+
+h3 {
+    font-size: x-large;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: rgb(57, 57, 61);
+    font-style: normal;
 }
